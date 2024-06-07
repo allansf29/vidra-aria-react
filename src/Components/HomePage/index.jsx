@@ -14,6 +14,10 @@ const HomePageImage = styled.img`
     height: 400px;
     width: 100%;
     object-fit: cover;
+
+    @media screen and (max-width: 800px) {
+        height: 100vh;
+        }     
 `;
 
 const HomePageCarouselText = styled.div`
@@ -26,6 +30,10 @@ const HomePageCarouselText = styled.div`
     font-family: "Josefin Sans", sans-serif;
     text-align: center;
     text-shadow: black 7px 7px 5px;
+
+    @media screen and (max-width: 800px) {
+        font-size: 33px;
+        }     
 `;
 
 

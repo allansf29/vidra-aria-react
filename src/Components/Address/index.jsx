@@ -79,6 +79,10 @@ const CityItem = styled.li`
 const CompanyDetails = styled.div`
   font-size: 24px; /* Aumentando o tamanho do texto */
   margin-bottom: 50px; /* Aumentando o espaçamento inferior */
+
+  @media screen and (max-width: 800px) {
+        font-size: 18px;
+        }   
 `;
 
 const CompanyDetailItem = styled.p`

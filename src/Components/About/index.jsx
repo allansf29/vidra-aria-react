@@ -54,21 +54,6 @@ const AboutIcon = styled.img`
 }
 `
 
-// const AboutIframe = styled.iframe`
-//     width: 50%;
-//     margin: 50px;
-//     border-radius: 5px;
-
-//     @keyframes spinAnimation {
-//     from {
-//         transform: rotate(0deg);
-//     }
-//     to {
-//         transform: rotate(360deg);
-//     }
-//   }
-// `
-
 const AboutTitle = styled.h1`
     font-family: "Josefin Sans", sans-serif;
     font-size: 4rem;
@@ -101,13 +86,6 @@ const AboutTitle = styled.h1`
     }
 
 `
-// const AboutCaptionTitle = styled.h2`
-//     font-family: "Josefin Sans", sans-serif;
-//     font-size: 1.5rem;
-//     text-align: center;
-//     color: #494949;
-//     text-decoration: unset;
-// `
 
 const AboutText = styled.p`
     color: green;
@@ -150,7 +128,7 @@ const About = () => {
           <AboutTitle data-anime="up">Vidraçaria em São Paulo</AboutTitle>
           {/* <AboutCaptionTitle>Os vidros, espelhos e box mais resistentes do mercado</AboutCaptionTitle> */}
           <AboutText data-anime="up">
-          Na agitada São Paulo, surge a Vidraçaria T&W, fruto da parceria entre Tino, Wagner e Niltinho, três visionários apaixonados pelo trabalho com vidros. Estrategicamente localizada no centro da cidade, nossa equipe dedicada oferece soluções personalizadas para projetos residenciais, comerciais e industriais. Com uma ampla variedade de produtos, desde vidros temperados até espelhos decorativos, garantimos durabilidade e elegância em cada peça. Nosso compromisso é superar as expectativas dos clientes, proporcionando serviços de instalação de excelência e atendimento personalizado. Na Vidraçaria T&W, transformamos suas ideias em realidade, tornando seus ambientes mais modernos e sofisticados. Venha nos visitar e descubra como podemos fazer a diferença em seus projetos de vidraçaria.
+          Na agitada São Paulo, surge a Vidraçaria EWN, fruto da parceria entre Eddy, Wagner e Nilton, três visionários apaixonados pelo trabalho com vidros. Estrategicamente localizada no centro da cidade, nossa equipe dedicada oferece soluções personalizadas para projetos residenciais, comerciais e industriais. Com uma ampla variedade de produtos, desde vidros temperados até espelhos decorativos, garantimos durabilidade e elegância em cada peça. Nosso compromisso é superar as expectativas dos clientes, proporcionando serviços de instalação de excelência e atendimento personalizado. Na Vidraçaria T&W, transformamos suas ideias em realidade, tornando seus ambientes mais modernos e sofisticados. Venha nos visitar e descubra como podemos fazer a diferença em seus projetos de vidraçaria.
           </AboutText>
         </AboutContainer>
       </AboutSection>

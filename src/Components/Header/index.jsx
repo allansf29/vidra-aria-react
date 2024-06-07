@@ -125,7 +125,7 @@ const Header = () => {
                     <BtnNavBar id="navbar-toggle" onClick={() => setShowLinks(!showLinks)}>
                         <i className="fas fa-bars"></i>
                     </BtnNavBar>
-                    <LogoText>{"A.M vidros"}</LogoText>
+                    <LogoText>{"EWN Vidros"}</LogoText>
                 </NavHeader>
                 <Links id="navbar-link" showLinks={showLinks}>
                     <li><HeaderMainLink href="#main">Início</HeaderMainLink></li>

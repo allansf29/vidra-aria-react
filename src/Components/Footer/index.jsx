@@ -16,41 +16,22 @@ const FooterContent = styled.div`
   align-items: center;
 `;
 
-const FooterTitle = styled.h3`
-    font-size: 18px;
-    margin: 10px 0;
-`
-
-const CitiesList = styled.div`
-  text-align: left;
-`;
-
-const CityItem = styled.li`
-  list-style-type: disc;
-  margin-bottom: 15px; /* Aumentando ainda mais o espaçamento entre os itens */
-`;
-
 const Copyright = styled.p`
   font-size: 14px;
+
+  @media screen and (max-width: 800px) {
+    font-size: 10px;
+    }   
 `;
 
-const Credit = styled.p`
+const Dev = styled.p`
   font-size: 14px;
   margin: 10px;
   align-items: center;
-`;
 
-const SocialMedia = styled.div`
-  display: flex;
-  align-items: center;
-`;
-
-const SocialIcon = styled.a`
-  color: green;
-  font-size: 20px;
-  text-decoration: none;
-  margin-left: 20px;
-  
+  @media screen and (max-width: 800px) {
+    font-size: 10px;
+    }   
 `;
 
 const Footer = () => {  
@@ -58,20 +39,11 @@ const Footer = () => {
     <FooterContainer>
       <FooterContent>
           <Copyright>
-            &copy; 2024 Empresa XYZ. Todos os direitos reservados.
+            &copy; 2024 allansf29. Todos os direitos reservados.
           </Copyright>
-          <Credit>
+          <Dev>
             Desenvolvido por: Allansf29@gmail.com
-          </Credit>
-        
-        <div>
-          <h3>Redes Sociais</h3>
-          <SocialMedia>
-            <SocialIcon href="https://facebook.com"><i className="fab fa-facebook"></i></SocialIcon>
-            <SocialIcon href="https://twitter.com"><i className="fab fa-twitter"></i></SocialIcon>
-            <SocialIcon href="https://instagram.com"><i className="fab fa-instagram"></i></SocialIcon>
-          </SocialMedia>
-        </div>
+          </Dev>
       </FooterContent>
     </FooterContainer>
   );
