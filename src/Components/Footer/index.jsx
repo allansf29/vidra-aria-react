@@ -18,16 +18,27 @@ const FooterContent = styled.div`
 
 const Copyright = styled.p`
   font-size: 14px;
+  text-align: center;
 
   @media screen and (max-width: 800px) {
     font-size: 10px;
     }   
 `;
 
+const Image = styled.p`
+  font-size: 14px;
+  text-align: center;
+
+  @media screen and (max-width: 800px) {
+    font-size: 10px;
+    
+    }   
+`;
+
 const Dev = styled.p`
   font-size: 14px;
   margin: 10px;
-  align-items: center;
+  text-align: center;
 
   @media screen and (max-width: 800px) {
     font-size: 10px;
@@ -41,6 +52,9 @@ const Footer = () => {
           <Copyright>
             &copy; 2024 allansf29. Todos os direitos reservados.
           </Copyright>
+          <Image>
+            Imagens utilizadas apenas para exemplos, retirada do FREEPIK.
+          </Image>
           <Dev>
             Desenvolvido por: Allansf29@gmail.com
           </Dev>
