@@ -86,21 +86,9 @@ const CompanyDetails = styled.div`
 `;
 
 const CompanyDetailItem = styled.p`
-  margin-bottom: 10px; /* Adicionando espaçamento entre os itens */
+  margin-bottom: 15px; /* Adicionando espaçamento entre os itens */
 `;
 
-const SocialMedia = styled.div`
-  display: flex;
-  align-items: center;
-  
-`;
-
-const SocialIcon = styled.a`
-  color: #9cc0f9;
-  font-size: 40px; /* Aumentando o tamanho do ícone */
-  text-decoration: none;
-  margin-left: 20px; /* Aumentando o espaçamento entre os ícones */
-`;
 
 const AddressMap = styled.iframe`
     width: 100%;

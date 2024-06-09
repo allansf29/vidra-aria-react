@@ -75,14 +75,14 @@ const AboutTitle = styled.h1`
     }
 
 
-    @media screen and (max-width:1050px){
+    @media screen and (max-width:1420px){
           margin: 10px;
           font-size: 50px;
     }
 
     @media screen and (max-width:700px){
           margin: 10px;
-          font-size: 50px;
+          font-size: 42px;
     }
 
 `

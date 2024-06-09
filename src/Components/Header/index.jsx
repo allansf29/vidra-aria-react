@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components"
-import { cyan300, lilac, white, black} from "../UI/colors"
+import { cyan300, white} from "../UI/colors"
 
 const StyledHeader = styled.header`
     box-shadow: 0 1px 2px;
